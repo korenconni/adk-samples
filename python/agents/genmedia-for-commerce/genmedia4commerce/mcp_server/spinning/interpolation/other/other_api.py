@@ -14,7 +14,10 @@ from google import genai
 
 from workflows.shared.image_utils import preprocess_images
 from workflows.shared.video_utils import merge_videos_from_bytes
-from workflows.spinning.eval import check_spin_direction, classify_product_type, glitch_detection
+from workflows.spinning.eval import (
+    check_spin_direction,
+    glitch_detection,
+)
 from workflows.spinning.interpolation.other.interpolation_utils import (
     get_interpolation_prompt,
     process_single_video,
