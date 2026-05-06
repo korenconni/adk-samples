@@ -80,6 +80,8 @@ Or launch the interactive web UI:
 adk web
 ```
 
+> **Tip:** `adk web` binds to `localhost:8000` by default. To use a different port, run `adk web --port 8080`.
+
 ## Contributing
 
 Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for open tasks.
