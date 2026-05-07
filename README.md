@@ -20,7 +20,7 @@ This repository contains ready-to-use sample agents demonstrating various capabi
 - A Google Cloud project with the Vertex AI API enabled
 - Application Default Credentials configured (`gcloud auth application-default login`)
 
-> **Personal note:** I've been testing these samples with Python 3.11 — works great. Haven't tried 3.13 yet.
+> **Personal note:** I've been testing these samples with Python 3.11 — works great. Also confirmed working on Python 3.13 as of June 2025.
 
 ## Repository Structure
 
