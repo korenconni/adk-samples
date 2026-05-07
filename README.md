@@ -82,6 +82,8 @@ adk web
 
 > **Tip:** `adk web` binds to `localhost:8000` by default. To use a different port, run `adk web --port 8080`.
 
+> **Personal note:** I usually run `adk web --port 8080` since port 8000 tends to conflict with other local dev servers I have running.
+
 ## Contributing
 
 Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for open tasks.
