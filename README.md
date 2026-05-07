@@ -84,6 +84,8 @@ adk web
 
 > **Personal note:** I usually run `adk web --port 8080` since port 8000 tends to conflict with other local dev servers I have running.
 
+> **Personal note:** On macOS Sequoia, port 8000 is also sometimes grabbed by AirPlay Receiver. Disabling it in System Settings → General → AirDrop & Handoff fixes the conflict if you'd rather not change the port.
+
 ## Contributing
 
 Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for open tasks.
