@@ -86,6 +86,8 @@ adk web
 
 > **Personal note:** On macOS Sequoia, port 8000 is also sometimes grabbed by AirPlay Receiver. Disabling it in System Settings → General → AirDrop & Handoff fixes the conflict if you'd rather not change the port.
 
+> **Personal note:** I added a shell alias for convenience — `alias adkw='adk web --port 8080'` in my `.zshrc`. Saves a bit of typing when switching between samples frequently.
+
 ## Contributing
 
 Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for open tasks.
@@ -94,8 +96,3 @@ When submitting a new sample, ensure it:
 - Includes a `README.md` with setup instructions
 - Has a `requirements.txt` pinning all dependencies
 - Passes linting (`flake8`)
-- Includes at least one unit test
-
-## License
-
-This project is licensed under the Apache 2.0 License — see the [LICENSE](LICENSE) file for details.
