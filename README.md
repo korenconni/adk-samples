@@ -92,4 +92,4 @@ adk web
 
 ## Contributing
 
-This is a personal fork — I'm not accepting pull requests. For contributions to the original project, please visit [google/adk-samples](https://github.com/google/adk-samples).
+This is a personal fork and not actively accepting contributions. For the upstream project, please see [google/adk-samples](https://github.com/google/adk-samples).
