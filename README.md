@@ -88,11 +88,8 @@ adk web
 
 > **Personal note:** I added a shell alias for convenience — `alias adkw='adk web --port 8080'` in my `.zshrc`. Saves a bit of typing when switching between samples frequently.
 
+> **Personal note:** I also added `alias adkr='adk run .'` for quickly running agents from the terminal without the web UI — handy when I just want to test a quick prompt.
+
 ## Contributing
 
-Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for open tasks.
-
-When submitting a new sample, ensure it:
-- Includes a `README.md` with setup instructions
-- Has a `requirements.txt` pinning all dependencies
-- Passes linting (`flake8`)
+Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for op
