@@ -69,7 +69,8 @@ disallow_untyped_defs = true
 [tool.pytest.ini_options]
 asyncio_mode = "auto"
 testpaths = ["tests"]
-addopts = "--cov=agents --cov-report=term-missing --cov-report=xml"
+# Removed --cov flags so a plain `pytest` run doesn't require pytest-cov to be installed
+addopts = "-v"
 
 [tool.coverage.run]
 source = ["agents"]
