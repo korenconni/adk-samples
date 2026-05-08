@@ -92,4 +92,4 @@ adk web
 
 ## Contributing
 
-Contributions are welcome! Please read our [contribution guidelines](CONTRIBUTING.md) and check the [issue tracker](https://github.com/your-org/adk-samples/issues) for op
+This is a personal fork — I'm not accepting pull requests. For contributions to the original project, please visit [google/adk-samples](https://github.com/google/adk-samples).
