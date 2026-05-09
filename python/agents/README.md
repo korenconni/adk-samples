@@ -47,6 +47,8 @@ uv run adk web
 
 Then open your browser to `http://localhost:8000`.
 
+> **Personal note:** I've found it helpful to also pass `--port 8080` if port 8000 is already in use on my machine: `uv run adk web --port 8080`
+
 ## Structure
 
 Each agent sample follows this structure:
