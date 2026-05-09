@@ -49,6 +49,10 @@ Then open your browser to `http://localhost:8000`.
 
 > **Personal note:** I've found it helpful to also pass `--port 8080` if port 8000 is already in use on my machine: `uv run adk web --port 8080`
 
+### Checking Logs
+
+> **Personal note:** Adding `--log_level debug` is really useful when an agent isn't behaving as expected — it shows the full tool call and model response flow: `uv run adk run . --log_level debug`
+
 ## Structure
 
 Each agent sample follows this structure:
